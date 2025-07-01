@@ -67,7 +67,7 @@ The `custom_data.csv` file is **automatically generated** when you execute the f
 Clone this repository to your local machine:
 
 ```bash
-git clone [YOUR_REPOSITORY_URL_HERE] # Replace with your actual repository URL
+https://github.com/fai-alt/ETL_Extract_Faithchakwanira_670435.git
 cd ETL_Extract_Faithchakwanira_670435
 ```
 
