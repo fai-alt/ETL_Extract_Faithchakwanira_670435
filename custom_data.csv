@@ -1,110 +1,104 @@
 transaction_id,customer_id,product_id,product_name,category,quantity,unit_price,amount,transaction_date,last_updated,payment_method,region
-10000,1114,F606,Screen Protector,Accessories,1,13.62,13.62,2025-04-26 19:39:28,2025-04-27 09:39:28,Debit Card,North
-10001,1758,F606,Screen Protector,Accessories,3,11.92,35.76,2025-05-08 19:39:28,2025-05-08 21:39:28,Credit Card,North
-10002,1238,B202,Bluetooth Speaker,Electronics,3,51.01,153.03,2025-05-16 19:39:28,2025-05-17 07:39:28,Cash,South
-10003,1603,D404,Phone Case,Accessories,2,21.23,42.46,2025-04-11 19:39:28,2025-04-13 19:39:28,Debit Card,West
-10004,1284,C303,Smart Watch,Electronics,1,188.6,188.6,2025-05-29 19:39:28,2025-05-30 16:39:28,Credit Card,North
-10005,1099,D404,Phone Case,Accessories,2,21.38,42.76,2025-05-19 19:39:28,2025-05-20 11:39:28,Credit Card,West
-10006,1127,E505,USB Cable,Accessories,2,9.15,18.3,2025-04-29 19:39:28,2025-05-01 11:39:28,PayPal,South
-10007,1071,F606,Screen Protector,Accessories,1,13.41,13.41,2025-05-30 19:39:28,2025-05-31 13:39:28,Credit Card,South
-10008,1389,A101,Wireless Headphones,Electronics,2,89.15,178.3,2025-06-03 19:39:28,2025-06-04 18:39:28,Debit Card,East
-10009,1214,C303,Smart Watch,Electronics,3,190.67,572.01,2025-06-09 19:39:28,2025-06-11 14:39:28,Credit Card,South
-10010,1746,E505,USB Cable,Accessories,1,9.32,9.32,2025-05-05 19:39:28,2025-05-06 12:39:28,Debit Card,East
-10011,1234,A101,Wireless Headphones,Electronics,1,95.48,95.48,2025-05-06 19:39:28,2025-05-07 12:39:28,Credit Card,South
-10012,1897,E505,USB Cable,Accessories,3,9.62,28.86,2025-05-22 19:39:28,2025-05-24 02:39:28,Cash,West
-10013,1271,B202,Bluetooth Speaker,Electronics,1,47.46,47.46,2025-05-16 19:39:28,2025-05-18 05:39:28,PayPal,West
-10014,1408,E505,USB Cable,Accessories,2,9.43,18.86,2025-04-19 19:39:28,2025-04-21 03:39:28,Cash,North
-10015,1881,A101,Wireless Headphones,Electronics,1,83.74,83.74,2025-04-21 19:39:28,2025-04-23 14:39:28,Cash,North
-10016,1390,D404,Phone Case,Accessories,3,21.97,65.91,2025-05-14 19:39:28,2025-05-15 11:39:28,Credit Card,North
-10017,1906,F606,Screen Protector,Accessories,3,13.64,40.92,2025-05-30 19:39:28,2025-06-01 12:39:28,PayPal,North
-10018,1445,C303,Smart Watch,Electronics,1,198.14,198.14,2025-05-27 19:39:28,2025-05-29 17:39:28,PayPal,South
-10019,1934,E505,USB Cable,Accessories,1,10.73,10.73,2025-04-30 19:39:28,2025-05-02 11:39:28,Debit Card,South
-10020,1780,C303,Smart Watch,Electronics,1,201.57,201.57,2025-05-30 19:39:28,2025-06-01 04:39:28,Credit Card,East
-10021,1019,D404,Phone Case,Accessories,1,21.71,21.71,2025-06-06 19:39:28,2025-06-07 14:39:28,Debit Card,North
-10022,1899,B202,Bluetooth Speaker,Electronics,3,54.46,163.38,2025-04-16 19:39:28,2025-04-18 17:39:28,Cash,North
-10023,1784,E505,USB Cable,Accessories,1,9.25,9.25,2025-05-11 19:39:28,2025-05-13 06:39:28,Debit Card,East
-10024,1893,E505,USB Cable,Accessories,3,9.84,29.52,2025-04-24 19:39:28,2025-04-26 05:39:28,Debit Card,East
-10025,1687,D404,Phone Case,Accessories,3,19.48,58.44,2025-06-07 19:39:28,2025-06-09 04:39:28,Cash,North
-10026,1230,B202,Bluetooth Speaker,Electronics,1,48.37,48.37,2025-05-18 19:39:28,2025-05-20 06:39:28,Debit Card,South
-10027,1072,A101,Wireless Headphones,Electronics,3,92.35,277.05,2025-04-25 19:39:28,2025-04-25 23:39:28,Credit Card,East
-10028,1526,A101,Wireless Headphones,Electronics,1,86.0,86.0,2025-05-12 19:39:28,2025-05-13 08:39:28,Debit Card,West
-10029,1803,B202,Bluetooth Speaker,Electronics,2,53.06,106.12,2025-04-23 19:39:28,2025-04-24 01:39:28,Credit Card,West
-10030,1433,C303,Smart Watch,Electronics,2,198.67,397.34,2025-05-27 19:39:28,2025-05-27 22:39:28,Credit Card,North
-10031,1745,D404,Phone Case,Accessories,2,21.19,42.38,2025-04-17 19:39:28,2025-04-18 10:39:28,Debit Card,South
-10032,1459,E505,USB Cable,Accessories,1,9.83,9.83,2025-04-28 19:39:28,2025-04-30 00:39:28,Debit Card,North
-10033,1827,D404,Phone Case,Accessories,3,18.38,55.14,2025-05-22 19:39:28,2025-05-24 05:39:28,Credit Card,North
-10034,1170,B202,Bluetooth Speaker,Electronics,2,49.85,99.7,2025-04-24 19:39:28,2025-04-25 20:39:28,Credit Card,South
-10035,1002,D404,Phone Case,Accessories,2,19.05,38.1,2025-05-31 19:39:28,2025-06-02 00:39:28,PayPal,West
-10036,1980,F606,Screen Protector,Accessories,3,14.28,42.84,2025-05-16 19:39:28,2025-05-18 13:39:28,Cash,South
-10037,1303,B202,Bluetooth Speaker,Electronics,1,54.68,54.68,2025-05-18 19:39:28,2025-05-20 18:39:28,Credit Card,East
-10038,1051,A101,Wireless Headphones,Electronics,3,89.57,268.71,2025-06-08 19:39:28,2025-06-10 04:39:28,Debit Card,North
-10039,1082,E505,USB Cable,Accessories,1,9.13,9.13,2025-04-15 19:39:28,2025-04-17 14:39:28,Debit Card,West
-10040,1964,A101,Wireless Headphones,Electronics,3,85.42,256.26,2025-05-19 19:39:28,2025-05-19 21:39:28,Credit Card,West
-10041,1597,F606,Screen Protector,Accessories,3,13.05,39.15,2025-06-09 19:39:28,2025-06-10 11:39:28,Debit Card,East
-10042,1271,B202,Bluetooth Speaker,Electronics,2,46.3,92.6,2025-05-22 19:39:28,2025-05-23 14:39:28,Cash,East
-10043,1009,A101,Wireless Headphones,Electronics,2,92.17,184.34,2025-05-17 19:39:28,2025-05-18 01:39:28,Credit Card,South
-10044,1271,E505,USB Cable,Accessories,1,10.86,10.86,2025-06-06 19:39:28,2025-06-06 23:39:28,Debit Card,East
-10045,1161,C303,Smart Watch,Electronics,2,213.34,426.68,2025-05-26 19:39:28,2025-05-27 14:39:28,Credit Card,East
-10046,1106,F606,Screen Protector,Accessories,1,12.38,12.38,2025-06-06 19:39:28,2025-06-07 01:39:28,Debit Card,East
-10047,1619,C303,Smart Watch,Electronics,1,208.69,208.69,2025-04-24 19:39:28,2025-04-26 14:39:28,PayPal,West
-10048,1927,C303,Smart Watch,Electronics,1,183.68,183.68,2025-05-08 19:39:28,2025-05-09 12:39:28,Credit Card,North
-10049,1789,C303,Smart Watch,Electronics,1,205.47,205.47,2025-04-27 19:39:28,2025-04-28 05:39:28,Cash,West
-10050,1009,E505,USB Cable,Accessories,1,9.14,9.14,2025-06-06 19:39:28,2025-06-08 15:39:28,Debit Card,North
-10051,1596,C303,Smart Watch,Electronics,3,185.91,557.73,2025-04-19 19:39:28,2025-04-19 21:39:28,PayPal,East
-10052,1920,A101,Wireless Headphones,Electronics,2,84.77,169.54,2025-04-26 19:39:28,2025-04-28 13:39:28,Credit Card,East
-10053,1905,E505,USB Cable,Accessories,2,10.94,21.88,2025-05-28 19:39:28,2025-05-29 04:39:28,Debit Card,South
-10054,1902,B202,Bluetooth Speaker,Electronics,2,45.24,90.48,2025-05-28 19:39:28,2025-05-29 16:39:28,Cash,South
-10055,1163,C303,Smart Watch,Electronics,3,184.31,552.93,2025-06-05 19:39:28,2025-06-05 21:39:28,Cash,South
-10056,1836,B202,Bluetooth Speaker,Electronics,2,48.49,96.98,2025-06-02 19:39:28,2025-06-03 09:39:28,Debit Card,North
-10057,1197,F606,Screen Protector,Accessories,2,12.54,25.08,2025-06-05 19:39:28,2025-06-05 23:39:28,PayPal,East
-10058,1521,F606,Screen Protector,Accessories,2,13.46,26.92,2025-06-03 19:39:28,2025-06-05 05:39:28,PayPal,North
-10059,1898,A101,Wireless Headphones,Electronics,2,84.2,168.4,2025-04-27 19:39:28,2025-04-27 21:39:28,Credit Card,West
-10060,1746,C303,Smart Watch,Electronics,2,197.45,394.9,2025-05-13 19:39:28,2025-05-14 02:39:28,Cash,South
-10061,1045,C303,Smart Watch,Electronics,3,197.43,592.29,2025-05-14 19:39:28,2025-05-16 05:39:28,Debit Card,East
-10062,1071,D404,Phone Case,Accessories,3,21.67,65.01,2025-05-20 19:39:28,2025-05-21 15:39:28,Credit Card,East
-10063,1316,E505,USB Cable,Accessories,3,9.81,29.43,2025-05-06 19:39:28,2025-05-08 15:39:28,PayPal,South
-10064,1430,B202,Bluetooth Speaker,Electronics,3,54.39,163.17,2025-05-24 19:39:28,2025-05-26 18:39:28,Debit Card,East
-10065,1561,D404,Phone Case,Accessories,1,19.21,19.21,2025-04-24 19:39:28,2025-04-25 22:39:28,PayPal,West
-10066,1452,D404,Phone Case,Accessories,3,18.85,56.55,2025-05-11 19:39:28,2025-05-13 18:39:28,Debit Card,North
-10067,1527,C303,Smart Watch,Electronics,3,205.31,615.93,2025-05-02 19:39:28,2025-05-03 00:39:28,Debit Card,East
-10068,1825,B202,Bluetooth Speaker,Electronics,1,46.46,46.46,2025-04-13 19:39:28,2025-04-14 10:39:28,Cash,North
-10069,1424,D404,Phone Case,Accessories,3,20.29,60.87,2025-05-26 19:39:28,2025-05-28 15:39:28,Cash,West
-10070,1249,D404,Phone Case,Accessories,1,20.61,20.61,2025-04-11 19:39:28,2025-04-13 19:39:28,Credit Card,West
-10071,1180,B202,Bluetooth Speaker,Electronics,3,50.17,150.51,2025-04-14 19:39:28,2025-04-16 06:39:28,Debit Card,North
-10072,1136,D404,Phone Case,Accessories,2,20.66,41.32,2025-05-16 19:39:28,2025-05-18 09:39:28,PayPal,West
-10073,1834,E505,USB Cable,Accessories,3,10.77,32.31,2025-05-08 19:39:28,2025-05-10 06:39:28,Cash,South
-10074,1882,F606,Screen Protector,Accessories,2,12.86,25.72,2025-05-29 19:39:28,2025-05-30 10:39:28,PayPal,West
-10075,1244,F606,Screen Protector,Accessories,2,12.83,25.66,2025-05-26 19:39:28,2025-05-27 13:39:28,Debit Card,East
-10076,1327,C303,Smart Watch,Electronics,3,183.21,549.63,2025-04-20 19:39:28,2025-04-21 09:39:28,Cash,South
-10077,1219,F606,Screen Protector,Accessories,1,12.77,12.77,2025-05-02 19:39:28,2025-05-04 05:39:28,Cash,West
-10078,1211,A101,Wireless Headphones,Electronics,2,88.0,176.0,2025-05-30 19:39:28,2025-06-01 08:39:28,Credit Card,West
-10079,1006,D404,Phone Case,Accessories,2,19.18,38.36,2025-05-05 19:39:28,2025-05-06 21:39:28,Debit Card,West
-10080,1279,B202,Bluetooth Speaker,Electronics,2,49.85,99.7,2025-05-05 19:39:28,2025-05-06 16:39:28,Cash,South
-10081,1941,D404,Phone Case,Accessories,1,21.91,21.91,2025-05-15 19:39:28,2025-05-15 20:39:28,Cash,North
-10082,1658,A101,Wireless Headphones,Electronics,2,83.43,166.86,2025-05-10 19:39:28,2025-05-11 06:39:28,Credit Card,East
-10083,1335,D404,Phone Case,Accessories,1,19.81,19.81,2025-05-02 19:39:28,2025-05-04 19:39:28,Cash,East
-10084,1258,D404,Phone Case,Accessories,1,19.87,19.87,2025-05-28 19:39:28,2025-05-30 05:39:28,Credit Card,East
-10085,1665,B202,Bluetooth Speaker,Electronics,1,52.8,52.8,2025-05-22 19:39:28,2025-05-22 21:39:28,Credit Card,South
-10086,1859,B202,Bluetooth Speaker,Electronics,1,51.2,51.2,2025-04-26 19:39:28,2025-04-27 03:39:28,Cash,North
-10087,1970,E505,USB Cable,Accessories,1,9.92,9.92,2025-04-27 19:39:28,2025-04-28 18:39:28,Debit Card,North
-10088,1987,B202,Bluetooth Speaker,Electronics,2,46.07,92.14,2025-04-12 19:39:28,2025-04-13 14:39:28,Cash,West
-10089,1203,F606,Screen Protector,Accessories,1,13.23,13.23,2025-06-03 19:39:28,2025-06-05 11:39:28,Debit Card,North
-10090,1791,F606,Screen Protector,Accessories,2,13.9,27.8,2025-05-19 19:39:28,2025-05-20 02:39:28,Credit Card,East
-10091,1438,E505,USB Cable,Accessories,3,9.73,29.19,2025-05-13 19:39:28,2025-05-15 12:39:28,PayPal,North
-10092,1842,D404,Phone Case,Accessories,2,18.41,36.82,2025-05-04 19:39:28,2025-05-06 11:39:28,Cash,South
-10093,1180,D404,Phone Case,Accessories,3,20.08,60.24,2025-05-22 19:39:28,2025-05-23 12:39:28,Cash,West
-10094,1845,D404,Phone Case,Accessories,3,20.36,61.08,2025-05-01 19:39:28,2025-05-02 10:39:28,Credit Card,East
-10095,1249,D404,Phone Case,Accessories,2,20.27,40.54,2025-05-23 19:39:28,2025-05-24 19:39:28,PayPal,North
-10096,1871,D404,Phone Case,Accessories,2,18.72,37.44,2025-04-24 19:39:28,2025-04-25 17:39:28,PayPal,East
-10097,1901,C303,Smart Watch,Electronics,3,208.04,624.12,2025-04-28 19:39:28,2025-04-30 06:39:28,Credit Card,South
-10098,1247,A101,Wireless Headphones,Electronics,3,88.31,264.93,2025-05-16 19:39:28,2025-05-18 19:39:28,Debit Card,West
-10099,1728,F606,Screen Protector,Accessories,2,12.86,25.72,2025-04-12 19:39:28,2025-04-13 00:39:28,PayPal,South
-10100,2708,D404,Phone Case,Accessories,1,19.22,40.63,2025-06-10 21:29:07,2025-06-10 21:29:07,Debit Card,West
-10101,2563,F606,Screen Protector,Accessories,2,12.61,25.74,2025-06-10 21:29:07,2025-06-10 21:29:07,Debit Card,South
-10102,2738,A101,Wireless Headphones,Electronics,1,86.67,283.08,2025-06-10 21:29:07,2025-06-10 21:29:07,Credit Card,South
-10103,2756,B202,Bluetooth Speaker,Electronics,2,47.76,152.66,2025-06-10 21:29:24,2025-06-10 21:29:24.148188,Debit Card,North
-10104,2303,B202,Bluetooth Speaker,Electronics,1,48.6,144.04,2025-06-10 21:29:24,2025-06-10 21:29:24.148188,Credit Card,East
-10105,2997,A101,Wireless Headphones,Electronics,1,90.95,93.54,2025-06-10 21:29:24,2025-06-10 21:29:24.148188,Debit Card,North
-10106,2587,A101,Wireless Headphones,Electronics,2,89.44,88.92,2025-06-10 21:41:33,2025-06-10 21:41:33.440304,Credit Card,East
-10107,2116,D404,Phone Case,Accessories,1,19.59,54.86,2025-06-10 21:41:33,2025-06-10 21:41:33.440304,Credit Card,South
-10108,2830,B202,Bluetooth Speaker,Electronics,3,54.48,45.84,2025-06-10 21:41:33,2025-06-10 21:41:33.440304,Credit Card,West
+10000,1114,F606,Screen Protector,Accessories,1,13.62,13.62,2025-05-17 18:55:40,2025-05-18 08:55:40,Debit Card,North
+10001,1758,F606,Screen Protector,Accessories,3,11.92,35.76,2025-05-29 18:55:40,2025-05-29 20:55:40,Credit Card,North
+10002,1238,B202,Bluetooth Speaker,Electronics,3,51.01,153.03,2025-06-06 18:55:40,2025-06-07 06:55:40,Cash,South
+10003,1603,D404,Phone Case,Accessories,2,21.23,42.46,2025-05-02 18:55:40,2025-05-04 18:55:40,Debit Card,West
+10004,1284,C303,Smart Watch,Electronics,1,188.6,188.6,2025-06-19 18:55:40,2025-06-20 15:55:40,Credit Card,North
+10005,1099,D404,Phone Case,Accessories,2,21.38,42.76,2025-06-09 18:55:40,2025-06-10 10:55:40,Credit Card,West
+10006,1127,E505,USB Cable,Accessories,2,9.15,18.3,2025-05-20 18:55:40,2025-05-22 10:55:40,PayPal,South
+10007,1071,F606,Screen Protector,Accessories,1,13.41,13.41,2025-06-20 18:55:40,2025-06-21 12:55:40,Credit Card,South
+10008,1389,A101,Wireless Headphones,Electronics,2,89.15,178.3,2025-06-24 18:55:40,2025-06-25 17:55:40,Debit Card,East
+10009,1214,C303,Smart Watch,Electronics,3,190.67,572.01,2025-06-30 18:55:40,2025-07-02 13:55:40,Credit Card,South
+10010,1746,E505,USB Cable,Accessories,1,9.32,9.32,2025-05-26 18:55:40,2025-05-27 11:55:40,Debit Card,East
+10011,1234,A101,Wireless Headphones,Electronics,1,95.48,95.48,2025-05-27 18:55:40,2025-05-28 11:55:40,Credit Card,South
+10012,1897,E505,USB Cable,Accessories,3,9.62,28.86,2025-06-12 18:55:40,2025-06-14 01:55:40,Cash,West
+10013,1271,B202,Bluetooth Speaker,Electronics,1,47.46,47.46,2025-06-06 18:55:40,2025-06-08 04:55:40,PayPal,West
+10014,1408,E505,USB Cable,Accessories,2,9.43,18.86,2025-05-10 18:55:40,2025-05-12 02:55:40,Cash,North
+10015,1881,A101,Wireless Headphones,Electronics,1,83.74,83.74,2025-05-12 18:55:40,2025-05-14 13:55:40,Cash,North
+10016,1390,D404,Phone Case,Accessories,3,21.97,65.91,2025-06-04 18:55:40,2025-06-05 10:55:40,Credit Card,North
+10017,1906,F606,Screen Protector,Accessories,3,13.64,40.92,2025-06-20 18:55:40,2025-06-22 11:55:40,PayPal,North
+10018,1445,C303,Smart Watch,Electronics,1,198.14,198.14,2025-06-17 18:55:40,2025-06-19 16:55:40,PayPal,South
+10019,1934,E505,USB Cable,Accessories,1,10.73,10.73,2025-05-21 18:55:40,2025-05-23 10:55:40,Debit Card,South
+10020,1780,C303,Smart Watch,Electronics,1,201.57,201.57,2025-06-20 18:55:40,2025-06-22 03:55:40,Credit Card,East
+10021,1019,D404,Phone Case,Accessories,1,21.71,21.71,2025-06-27 18:55:40,2025-06-28 13:55:40,Debit Card,North
+10022,1899,B202,Bluetooth Speaker,Electronics,3,54.46,163.38,2025-05-07 18:55:40,2025-05-09 16:55:40,Cash,North
+10023,1784,E505,USB Cable,Accessories,1,9.25,9.25,2025-06-01 18:55:40,2025-06-03 05:55:40,Debit Card,East
+10024,1893,E505,USB Cable,Accessories,3,9.84,29.52,2025-05-15 18:55:40,2025-05-17 04:55:40,Debit Card,East
+10025,1687,D404,Phone Case,Accessories,3,19.48,58.44,2025-06-28 18:55:40,2025-06-30 03:55:40,Cash,North
+10026,1230,B202,Bluetooth Speaker,Electronics,1,48.37,48.37,2025-06-08 18:55:40,2025-06-10 05:55:40,Debit Card,South
+10027,1072,A101,Wireless Headphones,Electronics,3,92.35,277.05,2025-05-16 18:55:40,2025-05-16 22:55:40,Credit Card,East
+10028,1526,A101,Wireless Headphones,Electronics,1,86.0,86.0,2025-06-02 18:55:40,2025-06-03 07:55:40,Debit Card,West
+10029,1803,B202,Bluetooth Speaker,Electronics,2,53.06,106.12,2025-05-14 18:55:40,2025-05-15 00:55:40,Credit Card,West
+10030,1433,C303,Smart Watch,Electronics,2,198.67,397.34,2025-06-17 18:55:40,2025-06-17 21:55:40,Credit Card,North
+10031,1745,D404,Phone Case,Accessories,2,21.19,42.38,2025-05-08 18:55:40,2025-05-09 09:55:40,Debit Card,South
+10032,1459,E505,USB Cable,Accessories,1,9.83,9.83,2025-05-19 18:55:40,2025-05-20 23:55:40,Debit Card,North
+10033,1827,D404,Phone Case,Accessories,3,18.38,55.14,2025-06-12 18:55:40,2025-06-14 04:55:40,Credit Card,North
+10034,1170,B202,Bluetooth Speaker,Electronics,2,49.85,99.7,2025-05-15 18:55:40,2025-05-16 19:55:40,Credit Card,South
+10035,1002,D404,Phone Case,Accessories,2,19.05,38.1,2025-06-21 18:55:40,2025-06-22 23:55:40,PayPal,West
+10036,1980,F606,Screen Protector,Accessories,3,14.28,42.84,2025-06-06 18:55:40,2025-06-08 12:55:40,Cash,South
+10037,1303,B202,Bluetooth Speaker,Electronics,1,54.68,54.68,2025-06-08 18:55:40,2025-06-10 17:55:40,Credit Card,East
+10038,1051,A101,Wireless Headphones,Electronics,3,89.57,268.71,2025-06-29 18:55:40,2025-07-01 03:55:40,Debit Card,North
+10039,1082,E505,USB Cable,Accessories,1,9.13,9.13,2025-05-06 18:55:40,2025-05-08 13:55:40,Debit Card,West
+10040,1964,A101,Wireless Headphones,Electronics,3,85.42,256.26,2025-06-09 18:55:40,2025-06-09 20:55:40,Credit Card,West
+10041,1597,F606,Screen Protector,Accessories,3,13.05,39.15,2025-06-30 18:55:40,2025-07-01 10:55:40,Debit Card,East
+10042,1271,B202,Bluetooth Speaker,Electronics,2,46.3,92.6,2025-06-12 18:55:40,2025-06-13 13:55:40,Cash,East
+10043,1009,A101,Wireless Headphones,Electronics,2,92.17,184.34,2025-06-07 18:55:40,2025-06-08 00:55:40,Credit Card,South
+10044,1271,E505,USB Cable,Accessories,1,10.86,10.86,2025-06-27 18:55:40,2025-06-27 22:55:40,Debit Card,East
+10045,1161,C303,Smart Watch,Electronics,2,213.34,426.68,2025-06-16 18:55:40,2025-06-17 13:55:40,Credit Card,East
+10046,1106,F606,Screen Protector,Accessories,1,12.38,12.38,2025-06-27 18:55:40,2025-06-28 00:55:40,Debit Card,East
+10047,1619,C303,Smart Watch,Electronics,1,208.69,208.69,2025-05-15 18:55:40,2025-05-17 13:55:40,PayPal,West
+10048,1927,C303,Smart Watch,Electronics,1,183.68,183.68,2025-05-29 18:55:40,2025-05-30 11:55:40,Credit Card,North
+10049,1789,C303,Smart Watch,Electronics,1,205.47,205.47,2025-05-18 18:55:40,2025-05-19 04:55:40,Cash,West
+10050,1009,E505,USB Cable,Accessories,1,9.14,9.14,2025-06-27 18:55:40,2025-06-29 14:55:40,Debit Card,North
+10051,1596,C303,Smart Watch,Electronics,3,185.91,557.73,2025-05-10 18:55:40,2025-05-10 20:55:40,PayPal,East
+10052,1920,A101,Wireless Headphones,Electronics,2,84.77,169.54,2025-05-17 18:55:40,2025-05-19 12:55:40,Credit Card,East
+10053,1905,E505,USB Cable,Accessories,2,10.94,21.88,2025-06-18 18:55:40,2025-06-19 03:55:40,Debit Card,South
+10054,1902,B202,Bluetooth Speaker,Electronics,2,45.24,90.48,2025-06-18 18:55:40,2025-06-19 15:55:40,Cash,South
+10055,1163,C303,Smart Watch,Electronics,3,184.31,552.93,2025-06-26 18:55:40,2025-06-26 20:55:40,Cash,South
+10056,1836,B202,Bluetooth Speaker,Electronics,2,48.49,96.98,2025-06-23 18:55:40,2025-06-24 08:55:40,Debit Card,North
+10057,1197,F606,Screen Protector,Accessories,2,12.54,25.08,2025-06-26 18:55:40,2025-06-26 22:55:40,PayPal,East
+10058,1521,F606,Screen Protector,Accessories,2,13.46,26.92,2025-06-24 18:55:40,2025-06-26 04:55:40,PayPal,North
+10059,1898,A101,Wireless Headphones,Electronics,2,84.2,168.4,2025-05-18 18:55:40,2025-05-18 20:55:40,Credit Card,West
+10060,1746,C303,Smart Watch,Electronics,2,197.45,394.9,2025-06-03 18:55:40,2025-06-04 01:55:40,Cash,South
+10061,1045,C303,Smart Watch,Electronics,3,197.43,592.29,2025-06-04 18:55:40,2025-06-06 04:55:40,Debit Card,East
+10062,1071,D404,Phone Case,Accessories,3,21.67,65.01,2025-06-10 18:55:40,2025-06-11 14:55:40,Credit Card,East
+10063,1316,E505,USB Cable,Accessories,3,9.81,29.43,2025-05-27 18:55:40,2025-05-29 14:55:40,PayPal,South
+10064,1430,B202,Bluetooth Speaker,Electronics,3,54.39,163.17,2025-06-14 18:55:40,2025-06-16 17:55:40,Debit Card,East
+10065,1561,D404,Phone Case,Accessories,1,19.21,19.21,2025-05-15 18:55:40,2025-05-16 21:55:40,PayPal,West
+10066,1452,D404,Phone Case,Accessories,3,18.85,56.55,2025-06-01 18:55:40,2025-06-03 17:55:40,Debit Card,North
+10067,1527,C303,Smart Watch,Electronics,3,205.31,615.93,2025-05-23 18:55:40,2025-05-23 23:55:40,Debit Card,East
+10068,1825,B202,Bluetooth Speaker,Electronics,1,46.46,46.46,2025-05-04 18:55:40,2025-05-05 09:55:40,Cash,North
+10069,1424,D404,Phone Case,Accessories,3,20.29,60.87,2025-06-16 18:55:40,2025-06-18 14:55:40,Cash,West
+10070,1249,D404,Phone Case,Accessories,1,20.61,20.61,2025-05-02 18:55:40,2025-05-04 18:55:40,Credit Card,West
+10071,1180,B202,Bluetooth Speaker,Electronics,3,50.17,150.51,2025-05-05 18:55:40,2025-05-07 05:55:40,Debit Card,North
+10072,1136,D404,Phone Case,Accessories,2,20.66,41.32,2025-06-06 18:55:40,2025-06-08 08:55:40,PayPal,West
+10073,1834,E505,USB Cable,Accessories,3,10.77,32.31,2025-05-29 18:55:40,2025-05-31 05:55:40,Cash,South
+10074,1882,F606,Screen Protector,Accessories,2,12.86,25.72,2025-06-19 18:55:40,2025-06-20 09:55:40,PayPal,West
+10075,1244,F606,Screen Protector,Accessories,2,12.83,25.66,2025-06-16 18:55:40,2025-06-17 12:55:40,Debit Card,East
+10076,1327,C303,Smart Watch,Electronics,3,183.21,549.63,2025-05-11 18:55:40,2025-05-12 08:55:40,Cash,South
+10077,1219,F606,Screen Protector,Accessories,1,12.77,12.77,2025-05-23 18:55:40,2025-05-25 04:55:40,Cash,West
+10078,1211,A101,Wireless Headphones,Electronics,2,88.0,176.0,2025-06-20 18:55:40,2025-06-22 07:55:40,Credit Card,West
+10079,1006,D404,Phone Case,Accessories,2,19.18,38.36,2025-05-26 18:55:40,2025-05-27 20:55:40,Debit Card,West
+10080,1279,B202,Bluetooth Speaker,Electronics,2,49.85,99.7,2025-05-26 18:55:40,2025-05-27 15:55:40,Cash,South
+10081,1941,D404,Phone Case,Accessories,1,21.91,21.91,2025-06-05 18:55:40,2025-06-05 19:55:40,Cash,North
+10082,1658,A101,Wireless Headphones,Electronics,2,83.43,166.86,2025-05-31 18:55:40,2025-06-01 05:55:40,Credit Card,East
+10083,1335,D404,Phone Case,Accessories,1,19.81,19.81,2025-05-23 18:55:40,2025-05-25 18:55:40,Cash,East
+10084,1258,D404,Phone Case,Accessories,1,19.87,19.87,2025-06-18 18:55:40,2025-06-20 04:55:40,Credit Card,East
+10085,1665,B202,Bluetooth Speaker,Electronics,1,52.8,52.8,2025-06-12 18:55:40,2025-06-12 20:55:40,Credit Card,South
+10086,1859,B202,Bluetooth Speaker,Electronics,1,51.2,51.2,2025-05-17 18:55:40,2025-05-18 02:55:40,Cash,North
+10087,1970,E505,USB Cable,Accessories,1,9.92,9.92,2025-05-18 18:55:40,2025-05-19 17:55:40,Debit Card,North
+10088,1987,B202,Bluetooth Speaker,Electronics,2,46.07,92.14,2025-05-03 18:55:40,2025-05-04 13:55:40,Cash,West
+10089,1203,F606,Screen Protector,Accessories,1,13.23,13.23,2025-06-24 18:55:40,2025-06-26 10:55:40,Debit Card,North
+10090,1791,F606,Screen Protector,Accessories,2,13.9,27.8,2025-06-09 18:55:40,2025-06-10 01:55:40,Credit Card,East
+10091,1438,E505,USB Cable,Accessories,3,9.73,29.19,2025-06-03 18:55:40,2025-06-05 11:55:40,PayPal,North
+10092,1842,D404,Phone Case,Accessories,2,18.41,36.82,2025-05-25 18:55:40,2025-05-27 10:55:40,Cash,South
+10093,1180,D404,Phone Case,Accessories,3,20.08,60.24,2025-06-12 18:55:40,2025-06-13 11:55:40,Cash,West
+10094,1845,D404,Phone Case,Accessories,3,20.36,61.08,2025-05-22 18:55:40,2025-05-23 09:55:40,Credit Card,East
+10095,1249,D404,Phone Case,Accessories,2,20.27,40.54,2025-06-13 18:55:40,2025-06-14 18:55:40,PayPal,North
+10096,1871,D404,Phone Case,Accessories,2,18.72,37.44,2025-05-15 18:55:40,2025-05-16 16:55:40,PayPal,East
+10097,1901,C303,Smart Watch,Electronics,3,208.04,624.12,2025-05-19 18:55:40,2025-05-21 05:55:40,Credit Card,South
+10098,1247,A101,Wireless Headphones,Electronics,3,88.31,264.93,2025-06-06 18:55:40,2025-06-08 18:55:40,Debit Card,West
+10099,1728,F606,Screen Protector,Accessories,2,12.86,25.72,2025-05-03 18:55:40,2025-05-03 23:55:40,PayPal,South
+10100,2708,D404,Phone Case,Accessories,1,19.22,40.63,2025-07-01 19:55:40,2025-07-01 19:55:40,Debit Card,West
+10101,2563,F606,Screen Protector,Accessories,2,12.61,25.74,2025-07-01 19:55:40,2025-07-01 19:55:40,Debit Card,South
+10102,2738,A101,Wireless Headphones,Electronics,1,86.67,283.08,2025-07-01 19:55:40,2025-07-01 19:55:40,Credit Card,South
