@@ -1,0 +1,11 @@
+transaction_id,customer_id,product_id,product_name,category,quantity,unit_price,amount,transaction_date,last_updated,payment_method,region,total_price
+10096,1871,D404,Phone Case,Accessories,2,18.72,37.44,2025-04-24,2025-04-25 15:41:59,PayPal,East,37.44
+10097,1901,C303,Smart Watch,Electronics,3,208.04,624.12,2025-04-28,2025-04-30 04:41:59,Credit Card,South,624.12
+10098,1247,A101,Wireless Headphones,Electronics,3,88.31,264.93,2025-05-16,2025-05-18 17:41:59,Debit Card,West,264.93
+10099,1728,F606,Screen Protector,Accessories,2,12.86,25.72,2025-04-12,2025-04-12 22:41:59,PayPal,South,25.72
+10100,1708,D404,Phone Case,Accessories,1,19.22,19.22,2025-06-08,2025-06-10 18:19:09,Debit,West,19.22
+10100,1543,E505,USB Cable,Accessories,2,9.84,19.68,2025-06-08,2025-06-10 18:19:09,PayPal,East,19.68
+10100,1719,C303,Smart Watch,Electronics,2,190.83,381.66,2025-06-09,2025-06-10 18:19:09,Credit,North,381.66
+10101,1323,A101,Wireless Headphones,Electronics,1,94.36,94.36,2025-06-08,2025-06-10 18:19:32,Credit,South,94.36
+10101,1756,A101,Wireless Headphones,Electronics,2,85.97,171.94,2025-06-08,2025-06-10 18:19:32,PayPal,East,171.94
+10101,1852,A101,Wireless Headphones,Electronics,1,86.32,86.32,2025-06-09,2025-06-10 18:19:32,Credit,East,86.32

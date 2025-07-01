@@ -187,4 +187,377 @@ This section shows the details of new transactions added to the dataset to simul
 
 This project effectively demonstrates both comprehensive and incremental data extraction methodologies, vital for building efficient and scalable data pipelines. The detailed explanations and practical demonstrations within the notebook and this README aim to provide a thorough understanding of these concepts.
 
+## Lab 4 – Transform
+
+**Transformations applied:**
+1. **Cleaning:** Removed duplicate rows and filled missing values in the `quantity` column with 0.
+2. **Enrichment:** Added a new column `total_price` calculated as `quantity * unit_price`.
+3. **Structural:** Standardized the `transaction_date` column to the format `YYYY-MM-DD`.
+
+**Transformed files produced:**
+- `transformed_full.csv` – the fully transformed dataset.
+- `transformed_incremental.csv` – the last 10 rows of the transformed dataset, simulating incremental data.
+
+---
+
+## Lab 5 – Load
+
+**Loading methods used:**
+- **Parquet:** Saved the transformed data as columnar Parquet files for efficient storage and analytics.
+- **SQLite:** Loaded the transformed data into SQLite databases for structured querying.
+
+**Sample loading code:**
+```python
+import pandas as pd
+import sqlite3
+
+# Load transformed CSV
+df = pd.read_csv('transformed_full.csv')
+
+# Save as Parquet
+df.to_parquet('loaded_data/full_data.parquet')
+
+# Save to SQLite
+with sqlite3.connect('loaded_data/full_data.db') as conn:
+    df.to_sql('full_data', conn, if_exists='replace', index=False)
+```
+
+**Output locations:**
+- Parquet: `loaded_data/full_data.parquet`, `loaded_data/incremental_data.parquet`
+- SQLite: `loaded_data/full_data.db`, `loaded_data/incremental_data.db`
+
+**Verification:**
+- Parquet and SQLite files were loaded and previewed in the notebook to confirm successful loading.
+
+---
+
+## Output Samples and Explanation
+
+### 1. First 5 Rows of Transformed Full Data
+This table shows the first five rows of the fully transformed dataset (`transformed_full.csv`). It demonstrates the cleaned, enriched, and structured data, including the new `total_price` column and standardized `transaction_date`.
+
+<!-- First 5 rows of full data -->
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>transaction_id</th>
+      <th>customer_id</th>
+      <th>product_id</th>
+      <th>product_name</th>
+      <th>category</th>
+      <th>quantity</th>
+      <th>unit_price</th>
+      <th>amount</th>
+      <th>transaction_date</th>
+      <th>last_updated</th>
+      <th>payment_method</th>
+      <th>region</th>
+      <th>total_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000</td>
+      <td>1114</td>
+      <td>F606</td>
+      <td>Screen Protector</td>
+      <td>Accessories</td>
+      <td>1</td>
+      <td>13.62</td>
+      <td>13.62</td>
+      <td>2025-04-26</td>
+      <td>2025-04-27 07:41:59</td>
+      <td>Debit Card</td>
+      <td>North</td>
+      <td>13.62</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10001</td>
+      <td>1758</td>
+      <td>F606</td>
+      <td>Screen Protector</td>
+      <td>Accessories</td>
+      <td>3</td>
+      <td>11.92</td>
+      <td>35.76</td>
+      <td>2025-05-08</td>
+      <td>2025-05-08 19:41:59</td>
+      <td>Credit Card</td>
+      <td>North</td>
+      <td>35.76</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10002</td>
+      <td>1238</td>
+      <td>B202</td>
+      <td>Bluetooth Speaker</td>
+      <td>Electronics</td>
+      <td>3</td>
+      <td>51.01</td>
+      <td>153.03</td>
+      <td>2025-05-16</td>
+      <td>2025-05-17 05:41:59</td>
+      <td>Cash</td>
+      <td>South</td>
+      <td>153.03</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10003</td>
+      <td>1603</td>
+      <td>D404</td>
+      <td>Phone Case</td>
+      <td>Accessories</td>
+      <td>2</td>
+      <td>21.23</td>
+      <td>42.46</td>
+      <td>2025-04-11</td>
+      <td>2025-04-13 17:41:59</td>
+      <td>Debit Card</td>
+      <td>West</td>
+      <td>42.46</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10004</td>
+      <td>1284</td>
+      <td>C303</td>
+      <td>Smart Watch</td>
+      <td>Electronics</td>
+      <td>1</td>
+      <td>188.60</td>
+      <td>188.60</td>
+      <td>2025-05-29</td>
+      <td>2025-05-30 14:41:59</td>
+      <td>Credit Card</td>
+      <td>North</td>
+      <td>188.60</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+### 2. Last 5 Rows of Transformed Full Data
+This table shows the last five rows of the fully transformed dataset, demonstrating the data at the end of the file, including any new or updated records.
+
+<!-- Last 5 rows of full data -->
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>transaction_id</th>
+      <th>customer_id</th>
+      <th>product_id</th>
+      <th>product_name</th>
+      <th>category</th>
+      <th>quantity</th>
+      <th>unit_price</th>
+      <th>amount</th>
+      <th>transaction_date</th>
+      <th>last_updated</th>
+      <th>payment_method</th>
+      <th>region</th>
+      <th>total_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10096</td>
+      <td>1871</td>
+      <td>D404</td>
+      <td>Phone Case</td>
+      <td>Accessories</td>
+      <td>2</td>
+      <td>18.72</td>
+      <td>37.44</td>
+      <td>2025-04-24</td>
+      <td>2025-04-25 15:41:59</td>
+      <td>PayPal</td>
+      <td>East</td>
+      <td>37.44</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10097</td>
+      <td>1901</td>
+      <td>C303</td>
+      <td>Smart Watch</td>
+      <td>Electronics</td>
+      <td>3</td>
+      <td>208.04</td>
+      <td>624.12</td>
+      <td>2025-04-28</td>
+      <td>2025-04-30 04:41:59</td>
+      <td>Credit Card</td>
+      <td>South</td>
+      <td>624.12</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10098</td>
+      <td>1247</td>
+      <td>A101</td>
+      <td>Wireless Headphones</td>
+      <td>Electronics</td>
+      <td>3</td>
+      <td>88.31</td>
+      <td>264.93</td>
+      <td>2025-05-16</td>
+      <td>2025-05-18 17:41:59</td>
+      <td>Debit Card</td>
+      <td>West</td>
+      <td>264.93</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10099</td>
+      <td>1728</td>
+      <td>F606</td>
+      <td>Screen Protector</td>
+      <td>Accessories</td>
+      <td>2</td>
+      <td>12.86</td>
+      <td>25.72</td>
+      <td>2025-04-12</td>
+      <td>2025-04-12 22:41:59</td>
+      <td>PayPal</td>
+      <td>South</td>
+      <td>25.72</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10100</td>
+      <td>1708</td>
+      <td>D404</td>
+      <td>Phone Case</td>
+      <td>Accessories</td>
+      <td>1</td>
+      <td>19.22</td>
+      <td>19.22</td>
+      <td>2025-06-08</td>
+      <td>2025-06-10 18:19:09</td>
+      <td>Debit</td>
+      <td>West</td>
+      <td>19.22</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+### 3. First 5 Rows of Transformed Incremental Data
+This table shows the first five rows of the incremental dataset (`transformed_incremental.csv`), which contains the last 10 rows of the full transformed data. This simulates new or recently updated records for incremental loading.
+
+<!-- First 5 rows of incremental data -->
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>transaction_id</th>
+      <th>customer_id</th>
+      <th>product_id</th>
+      <th>product_name</th>
+      <th>category</th>
+      <th>quantity</th>
+      <th>unit_price</th>
+      <th>amount</th>
+      <th>transaction_date</th>
+      <th>last_updated</th>
+      <th>payment_method</th>
+      <th>region</th>
+      <th>total_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10096</td>
+      <td>1871</td>
+      <td>D404</td>
+      <td>Phone Case</td>
+      <td>Accessories</td>
+      <td>2</td>
+      <td>18.72</td>
+      <td>37.44</td>
+      <td>2025-04-24</td>
+      <td>2025-04-25 15:41:59</td>
+      <td>PayPal</td>
+      <td>East</td>
+      <td>37.44</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10097</td>
+      <td>1901</td>
+      <td>C303</td>
+      <td>Smart Watch</td>
+      <td>Electronics</td>
+      <td>3</td>
+      <td>208.04</td>
+      <td>624.12</td>
+      <td>2025-04-28</td>
+      <td>2025-04-30 04:41:59</td>
+      <td>Credit Card</td>
+      <td>South</td>
+      <td>624.12</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10098</td>
+      <td>1247</td>
+      <td>A101</td>
+      <td>Wireless Headphones</td>
+      <td>Electronics</td>
+      <td>3</td>
+      <td>88.31</td>
+      <td>264.93</td>
+      <td>2025-05-16</td>
+      <td>2025-05-18 17:41:59</td>
+      <td>Debit Card</td>
+      <td>West</td>
+      <td>264.93</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10099</td>
+      <td>1728</td>
+      <td>F606</td>
+      <td>Screen Protector</td>
+      <td>Accessories</td>
+      <td>2</td>
+      <td>12.86</td>
+      <td>25.72</td>
+      <td>2025-04-12</td>
+      <td>2025-04-12 22:41:59</td>
+      <td>PayPal</td>
+      <td>South</td>
+      <td>25.72</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10100</td>
+      <td>1708</td>
+      <td>D404</td>
+      <td>Phone Case</td>
+      <td>Accessories</td>
+      <td>1</td>
+      <td>19.22</td>
+      <td>19.22</td>
+      <td>2025-06-08</td>
+      <td>2025-06-10 18:19:09</td>
+      <td>Debit</td>
+      <td>West</td>
+      <td>19.22</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
